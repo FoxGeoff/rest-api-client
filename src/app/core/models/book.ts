@@ -1,5 +1,4 @@
-export class Book {
-  title!: string;
-  genre!: string;
-
+export interface IBook {
+  title: string;
+  genre: string;
 }
