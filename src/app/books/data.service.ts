@@ -21,16 +21,19 @@ export class DataService {
   /**
    * Code Ref:
    * Project: APM-START-3-1-2023
-   * File: product.service.ts
+   * File: product.service.ts (src\api\books\books.json)
+   *
+   * NOTE Must be in a public folder eg assets
+   *
    */
-  bookUrlLocal = "api/books/books.json";
+  bookUrlLocal = "assets/books/books.json";
   bookUrlRemote = "localhost:4200/api/books";
 
   getAllBooks(): Observable<IBook[]> {
     return this.http.get<IBook[]>(this.bookUrlLocal).pipe(
       tap((data) => console.log(`All`, JSON.stringify(data))),
       catchError(this.handleError)
-      );
+    );
   }
 
   private handleError(err: HttpErrorResponse) {
