@@ -25,14 +25,15 @@ export class DataService {
    *
    * NOTE Must be in a public folder eg assets
    *
-   * ref https://www.techiediaries.com/angular-local-json-files/
+   * ref(local) https://www.techiediaries.com/angular-local-json-files/
+   * ref(remote) https://stackoverflow.com/questions/70060783/how-to-allow-cors-in-node-js
    *
    */
   bookUrlLocal = "assets/books/books.json";
-  bookUrlRemote = "localhost:4200/api/books";
+  bookUrlRemote = "http://localhost:4200/api/books";
 
   getAllBooks(): Observable<IBook[]> {
-    return this.http.get<IBook[]>(this.bookUrlLocal).pipe(
+    return this.http.get<IBook[]>(this.bookUrlRemote).pipe(
       tap((data) => console.log(`All`, JSON.stringify(data))),
       catchError(this.handleError)
     );
