@@ -25,6 +25,8 @@ export class DataService {
    *
    * NOTE Must be in a public folder eg assets
    *
+   * ref https://www.techiediaries.com/angular-local-json-files/
+   *
    */
   bookUrlLocal = "assets/books/books.json";
   bookUrlRemote = "localhost:4200/api/books";
