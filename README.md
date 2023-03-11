@@ -9,6 +9,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### NOTE
 
+1. <https://stackoverflow.com/questions/43492354/how-to-allow-access-outside-localhost>
+
 ```typescript
  export class DataService {
 
