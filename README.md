@@ -64,4 +64,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. Schematics for the Angular CLI
 2. Ref: <https://v7.material.angular.io/guide/schematics>
 3. Run `ng add @angular/material`
-4. Run `ng generate @angular/material:table <component-name>`
+4. Run `ng add @angular/cdk`
+5. Run `ng generate @angular/material:table <component-name>`
