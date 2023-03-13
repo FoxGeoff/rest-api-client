@@ -57,3 +57,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     return throwError(() => errorMsg);
   }
 }
+```
+
+#### Task: Build Table for list of books
+
+1. Schematics for the Angular CLI
+2. Ref: <https://angular.io/guide/schematics>
