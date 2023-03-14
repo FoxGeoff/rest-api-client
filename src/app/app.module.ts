@@ -8,9 +8,12 @@ import { AppComponent } from './app.component';
 import { BooksComponent } from './books/books.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BookTableComponent } from './book-table/book-table.component';
+// Material Components
 import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+// form
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,8 @@ import { MatSortModule } from '@angular/material/sort';
     BrowserAnimationsModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
