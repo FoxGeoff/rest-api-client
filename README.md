@@ -67,4 +67,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 4. Run `ng add @angular/cdk`
 5. Run `ng generate @angular/material:table <component-name>`
 
-### Task: Table Filter
+### Task: Refactor the table data to use books
