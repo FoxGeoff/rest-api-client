@@ -68,3 +68,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 5. Run `ng generate @angular/material:table <component-name>`
 
 ### Task: Refactor the table data to use books
+
+### Task: Add Table Filter
+
+1. Ref.: <https://www.freakyjolly.com/angular-material-table-custom-filter-using-select-box/>
+2. Ref.: <https://www.freecodecamp.org/news/a-definitive-guide-to-conditional-logic-in-javascript-23fa234d2ca3/>
